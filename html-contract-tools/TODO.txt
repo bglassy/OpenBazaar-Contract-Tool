@@ -1,0 +1,13 @@
+Things to do here:
+
+- generic validation for form values, bring errors back to each form element
+- finish storage of contracts and drafts.
+  - Add support for deleting them
+  - naming scheme of some sort to identify them easily
+
+Things that are done:
+
+- have schemas defined in their own files
+  - define structure (json-schema?)
+- pasted contracts are validated against schema
+- have a generic form builder for a given schema
