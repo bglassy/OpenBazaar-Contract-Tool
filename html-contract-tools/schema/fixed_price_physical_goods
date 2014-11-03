@@ -1,0 +1,35 @@
+/* Our first contract.
+ * This contract mimics the de-facto structure of the current OB contracts being generated.
+ * This also includes new fields for 3d parties, and CommonAccord payloads
+ *
+ */
+{
+    "title": "Fixed Price, Physical Goods",
+    "description": "This contract definition is a work in progress.",
+    "contract": true,
+    "type": "object",
+    "properties": {
+        "Contract_Metadata": {
+            "$ref": "contract_metadata"
+        },
+        "Contract": {
+            "$ref": "contract"
+        },
+        "Seller": {
+            "$ref": "seller"
+        },
+        "Buyer": {
+            "$ref": "buyer"
+        },
+        "Notary": {
+            "$ref": "notary"
+        },
+        "Courier": {
+            "$ref": "courier"
+        },
+        "Arbiter": {
+            "$ref": "arbiter"
+        }
+    },
+    "required": [ "Contract_Metadata", "Contract" ]
+}
