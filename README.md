@@ -1,4 +1,6 @@
-itsnotlupus.github.io
+<img src="https://blog.openbazaar.org/wp-content/uploads/2014/07/logo.png" width="500px"/>
+
+OpenBazaar Contracts Tool
 =====================
 
-I'm a README I'm a README AAAAH I'm a README
+https://openbazaar.org
